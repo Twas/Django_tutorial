@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '(#jk90g&uncsphzchw=%t6@3)6koo8
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['whispering-lake-93516.herokuapp.com/', '127.0.0.1']
+ALLOWED_HOSTS = ['whispering-lake-93516.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
